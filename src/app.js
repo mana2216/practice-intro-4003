@@ -74,6 +74,7 @@ app.get("/logout", (c) => {
   return c.redirect("/");
 });
 
+
 app.route("/", indexRouter);
 app.route("/users", usersRouter);
 app.route("/photos", photosRouter);
